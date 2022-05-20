@@ -1,0 +1,37 @@
+body
+   {
+	margin: 0;
+	font-family: "poppins", sans-serif;
+   background-color: #581e00;
+   
+   background-image:url(" https://codd.cs.gsu.edu/~adhar2/WP/PW/PW01/images%20for%20pw1/not.jpg ");
+	background-repeat: repeat-y;
+/* 	background-position:center; */
+	background-size:100%;
+  background-position: 50px 10px;
+   
+   }
+   
+   
+   
+   img{
+        height: 500px;
+        width: 600px;
+        margin: auto;
+        display: block;
+		border: 8px outset white;
+
+
+transition: width 2s, height 4s;
+    }
+
+h1,h2,h3,h4,p,ol{
+	margin-left: 171px;
+    top: 50px;
+}
+
+img:hover {
+  width: 900px;
+  height: 600px;
+}
+
